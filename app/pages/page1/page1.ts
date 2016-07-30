@@ -24,5 +24,9 @@ class CreateNewRecordModal {
       public params: NavParams,
       public viewCtrl: ViewController
   ) {}
+  
+  close() {
+    this.viewCtrl.dismiss();
+  }
 }
 
